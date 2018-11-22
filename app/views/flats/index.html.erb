@@ -1,0 +1,22 @@
+<h1>All Flats</h1>
+
+<div class="card-container">
+  <% @flats.each do |flat| %>
+    <div class="card">
+          <div class="card-body" ">
+              <h3><%= flat.name %></h3>
+
+              <p><%= flat.description %></p>
+              <a href="#" class="card-link"></a>
+            </div>
+          <div class="card-footer">
+            <p class="order">posted on 08/11/2018</p>
+            <div class="icons">
+              <i class="fas fa-share"></i>
+              <i class="fab fa-react"></i>
+            </div>
+          </div>
+        </div>
+  <% end %>
+
+</div>

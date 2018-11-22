@@ -1,0 +1,121 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ul {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+li {
+  padding: 10px;
+  border-top: 1px solid #B6A896;
+}
+
+.n {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #BA1B1D;
+  color: #B6A896;
+  padding: 0px 61px;
+  opacity: 0.9;
+}
+
+a {
+  text-decoration: none !important;
+  color: #B6A896;
+  transition-duration: 0.3s;
+}
+
+.btn-n {
+  border: 1px solid #B6A896;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+}
+
+.btn-n:hover {
+  color: #BA1B1D;
+  background-color: #B6A896;
+}
+
+.card-container {
+  display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+}
+
+// .card {
+//   position: relative;
+//   border: 1px solid #B6A896;
+//   padding: 10px;
+// }
+
+.card {
+  border: 0.5px solid lightgray;
+  flex: 1 1 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+// .card:hover {
+//   margin-top: -5px;
+// }
+
+.card-body {
+  color: white;
+  font-weight: lighter;
+  height: 180px;
+  position: relative;
+  background-size: cover;
+}
+
+.card-body img {
+  margin-top: 0;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.card-body h3 {
+  margin-top: 0;
+  position: absolute;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  top: 10px;
+  left: 10px;
+}
+.card-body p {
+  position: absolute;
+
+  font-family: 'Montserra', sans-serif;
+  font-weight: thin;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+
+  color: lightgray;
+  font-size: 13px;
+
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+.icons i {
+  padding: 5px;
+}
